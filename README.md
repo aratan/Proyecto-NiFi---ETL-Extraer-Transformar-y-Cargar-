@@ -16,7 +16,7 @@ Para instalar este proyecto, sigue estos pasos:
 
 1. Descarga NiFi desde el siguiente enlace: https://nifi.apache.org/download.html
 2. Descomprime el archivo descargado
-3. Tambien docker run -p 8443:8443 systemdeveloper868/nifi
+3. Tambien docker run -p 8443:8443 systemdeveloper868/nifi  ./launch_nifi.sh
 4. Accede a la interfaz web de NiFi en:
 5.     https://127.0.0.1:8443/nifi/login 
 6.     https://127.0.0.1:8443/nifi/login
@@ -26,7 +26,7 @@ Para instalar este proyecto, sigue estos pasos:
 ## Uso
 
 Para usar este proyecto, sigue estos pasos:
-0. docker run -it nifi-code_nifi-container:latest ./launch_nifi.sh
+
 1. Configura los procesadores de NiFi para indicar las fuentes de datos fiscales que quieres extraer. Puedes usar los procesadores `GetFile`, `GetHTTP`, `ListenTCP` o `ConsumeKafka` según el tipo de fuente.
 2. Configura los procesadores de NiFi  `PublishKafka` según el tipo de destino.
 3. Inicia el flujo de NiFi y observa cómo se extraen y procesan los datos fiscales.
