@@ -1,13 +1,13 @@
 version: '3'
 services:
-  my-service:
+  nifi-arya:
     build:
       context: .
       dockerfile: Dockerfile
-    image: nifi
-    container_name: nifi
+    container_name: nifi-arya
+
     ports:
       - "8443:8443"
-    command: bash launcher_nifi.sh
-
-   
+    volumes:
+      - ./data:/usr/src/app/data
+      - ./logs:/usr/src/app/logs
