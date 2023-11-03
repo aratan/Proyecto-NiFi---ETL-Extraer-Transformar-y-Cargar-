@@ -38,7 +38,7 @@ Para usar este proyecto, sigue estos pasos:
 
 Si quieres contribuir a este proyecto, sigue estas pautas:
 
-1. Clona el repositorio desde https://github.com/tuusuario/nifi-extraccion-datos
+1. Clona el repositorio desde https://github.com/aratan/nifi
 2. Crea una rama con el nombre de la característica o mejora que quieras implementar.
 3. Realiza los cambios y mejoras en tu rama local.
 4. Envía una solicitud de extracción al repositorio original, explicando los cambios y mejoras que has realizado.
