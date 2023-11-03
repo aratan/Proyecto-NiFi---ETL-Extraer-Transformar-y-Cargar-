@@ -23,7 +23,7 @@ Para instalar este proyecto, sigue estos pasos:
 5. Accede a la interfaz web de NiFi en:
 6.     http://127.0.0.1:8080/nifi/login 
 7.     https://127.0.0.1:8443/nifi/login
-
+8. ¡¡¡ Cambia la contraseña por defecto !!!
  
 
 ## Uso
