@@ -14,12 +14,15 @@ Instrucciones de instalación.
 
 Para instalar este proyecto, sigue estos pasos:
 
-1. Descarga NiFi desde el siguiente enlace: https://nifi.apache.org/download.html
-2. Descomprime el archivo descargado
-3. Tambien docker run -p 8443:8443 systemdeveloper868/nifi  ./launch_nifi.sh
-4. Accede a la interfaz web de NiFi en:
-5.     https://127.0.0.1:8443/nifi/login 
-6.     https://127.0.0.1:8443/nifi/login
+1. Descarga el repositorio
+2. docker-compose up -d
+3. Te saldrá algo así: 
+    Starting nifi-arya ... done
+
+4. Tambien docker run -p 8443:8443 systemdeveloper868/nifi  ./launch_nifi.sh
+5. Accede a la interfaz web de NiFi en:
+6.     http://127.0.0.1:8080/nifi/login 
+7.     https://127.0.0.1:8443/nifi/login
 
  
 
