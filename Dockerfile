@@ -21,7 +21,7 @@ WORKDIR /opt/nifi-1.23.2
 
 COPY nifi.properties ./conf/nifi.properties
 # credenciales
-RUN  /opt/nifi-1.23.2/bin/nifi.sh set-single-user-credentials root 123456789123
+RUN  /opt/nifi-1.23.2/bin/nifi.sh set-single-user-credentials admin 1234567891230
 
 # Ejecutamos el script de inicio de NiFi
 CMD ["bin/nifi.sh", "start"]
